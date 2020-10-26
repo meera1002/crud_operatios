@@ -19,6 +19,7 @@ class CreateUserActivitiesTable extends Migration
             $table->foreign('user_id', 'user_activities_ibfk_1')->references('id')->on('users')->onUpdate('RESTRICT')->onDelete('RESTRICT');
             $table->string('activity_name');
             $table->integer('activity_key');
+	    $table->float('price');
             $table->timestamps();
             $table->softDeletes('deleted_at');
         });

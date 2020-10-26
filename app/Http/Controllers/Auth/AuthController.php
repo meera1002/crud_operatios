@@ -56,6 +56,7 @@ class AuthController extends Controller
                 $userActivity->user_id       = $user->id;
                 $userActivity->activity_key  = $body->key;
                 $userActivity->activity_name = $body->activity;
+		$userActivity->price = $body->price;
                 $userActivity->save();
             } else {
                 $i--;
