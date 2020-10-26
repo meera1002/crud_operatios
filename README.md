@@ -1,7 +1,7 @@
 ## Specifications
 
 - PHP 7.2 or greater
-- Laravel 6
+- Laravel 7
 - Bootstrap
 
 ## Developer Notes
